@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Bac Nguyen</title>
+    <link rel="stylesheet" href="{% static '\cv.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+    <div class="container">
+        <div class="avatar">
+            <img src="{% static '\avt.jpg' %}" alt="">
+        </div>
+        <div class="name">
+            <h1>NGUYEN DINH NGUYEN BAC</h1>
+            <div class="specialize">Data Engineer</div>
+            <ul class="contact">
+                <li>
+                    <span>P</span> +84 333 921 721
+                </li>
+                <li>
+                    <span>E</span> nguyendinhnguyenbac@gmail.com
+                </li>
+            </ul>
+        </div>
+        <div class="info">
+            <ul>
+                <li>From Ho Chi Minh City - Viet Nam</li>
+                <li>Industrial University of Ho Chi Minh City</li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/bacnguyendinh" style="--socialAni:1"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/bac-nguyen-dinh-nguyen/" style="--socialAni:2"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/bac2012.dz" style="--socialAni:3"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+        </div>
+        <div class="intro">
+            <h2>EXPERIENCE</h2>
+            <div class="item">
+                <h4>Data Science student</h4>
+                <div class="time">
+                    <p>2021 - present</p>
+                    <p>GPA: 3.3/4.0</p>
+                    <p>Industrial Univercity of Ho Chi Minh City</p>
+                </div>
+            </div>
+        </div>
+        <div class="experience">
+            <h2>AWARDS & HONORS</h2>
+            <div class="item">
+                <h4>Eureka Consolation Prize at School Level</h4>
+                <p><span style="font-size: small;">2022</span><hr></p>
+                
+            </div>
+            <h2 class="skills">
+                SKILLS AND INTERESTS
+            </h2>
+            <h5>Languages</h5>
+            <p><span style="font-size: small;">Python, C/C++</span><hr></p>
+            <h5>Skills</h5>
+            <p><span style="font-size: small;">Crawl data, Visualization, Statistics</span><hr></p>
+            <h5>Areas of Interest</h5>
+            <p><span style="font-size: small;">NLP, SLP, CV, FinTech</span><hr></p>
+
+        </div>
+        <div class="project">
+            <h2>PROJECTS</h2>
+            <div>
+                <h5>Analyze Vietnamese sentiment by different word embeddings</h5>
+                <h6><span class="material-symbols-outlined">calendar_month</span>2023</h6>
+                <p><span style="font-size: small;">phoBert · FastText · Tranformer</span><hr></p>
+              </div>
+              <div>
+                <h5>Detecting School Violence Through Surveillance Camera Using Deep Learning Approach</h5>
+                <h6><span class="material-symbols-outlined">calendar_month</span>2023</h6>
+                <p><span style="font-size: small;">CNN · LSTM · HRNet · Yolo</span><hr></p>
+              </div>
+              <div>
+                <h5>Classification of Covid 19 based on Chest X-ray</h5>
+                <h6><span class="material-symbols-outlined">calendar_month</span>2022</h6>
+                <p><span style="font-size: small;">Cv2 · CNN · ViT · Yolo</span><hr></p>
+              </div>
+              <div>
+                <h5>Used clustering algorithms to propose employee shuttle station locations</h5>
+                <h6><span class="material-symbols-outlined">calendar_month</span>2021</h6>
+                <p><span style="font-size: small;">Shuttle bus station · clustering algorithm K-means · Convex Hull algorithm ·  ArcGIS API</span><hr></p>
+              </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Tan Dat - CV</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1,
+h2 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+</style>
+<body>
+    <header>
+        <img src="{% static 'CV1/img.jpeg' %}" alt="img" class="profile-image">
+        <h1>Nguyen Tan Dat</h1>
+        <p>Email: <a href="mailto:21022831.dat@student.iuh.edu.vn">21022831.dat@student.iuh.edu.vn</a> | Phone: 0969045403 | <a href="https://github.com/datnt2003">GitHub</a></p>
+    </header>
+    <section class="summary">
+        <h2>About Me</h2>
+        <p>Sinh viên năm 3 ngành Data Engineer với mục tiêu ứng tuyển vào vị trí thực tập/việc làm Data Engineer để áp dụng kiến thức và kỹ năng vào thực tế và tích lũy kinh nghiệm.</p>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Lập trình: Python (cơ bản), Java (cơ bản)</li>
+            <li>Hệ thống quản trị cơ sở dữ liệu: MySQL (cơ bản), PostgreSQL (cơ bản)</li>
+            <li>Công cụ phân tích dữ liệu: Excel (nâng cao), Power BI (cơ bản)</li>
+            <li>Kỹ năng mềm: Làm việc nhóm, giao tiếp, giải quyết vấn đề</li>
+        </ul>
+    </section>
+    <section class="experience">
+        <h2>Experience</h2>
+        <p><strong>Phân tích dữ liệu hành vi mua sắm</strong><br>
+            Tham gia dự án phân tích dữ liệu về hành vi mua sắm của khách hàng cho một cửa hàng bán lẻ.</p>
+        <p><strong>Mô hình dự đoán doanh thu</strong><br>
+            Tham gia xây dựng mô hình dự đoán doanh thu cho một công ty khởi nghiệp.</p>
+        <p><strong>Câu lạc bộ Data Science</strong><br>
+            Thành viên tích cực trong câu lạc bộ Data Science của trường, tham gia tổ chức workshop và hội thảo.</p>
+    </section>
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <p>Đạt giải Nhì cuộc thi Hackathon Data Science do trường tổ chức. Đạt học bổng toàn phần chương trình đào tạo Data Engineer của Google.</p>
+    </section>
+    <footer>
+        <p>Contact me at <a href="mailto:21022831.dat@student.iuh.edu.vn">21022831.dat@student.iuh.edu.vn</a> or call me at 0969045403</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('Welcome to Dat\'s CV');
+    });
+    </script>
+</body>
+</html>
